@@ -8,6 +8,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WRT3NPWC');</script>
 <!-- End Google Tag Manager -->
+    <script>
+        window.onload= ()=>{
+            window.dataLayer=window.dataLayer || [];
+            window.dataLayer.push({
+                       event: "page_view",
+                       page_name:"checkout",
+                       page_title:"check out Page",
+                       page_type:"html",
+                       page_location: window.location.href,
+            })
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
