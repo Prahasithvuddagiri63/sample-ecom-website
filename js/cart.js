@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     cartItems.innerHTML = cartHTML;
     document.getElementById("cart-total").textContent = total.toFixed(2);
-    updateCartCount();
+    updateCartCount();}
   )
